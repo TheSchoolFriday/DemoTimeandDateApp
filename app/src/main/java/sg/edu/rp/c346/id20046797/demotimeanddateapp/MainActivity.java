@@ -44,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
                 int day = dp.getDayOfMonth();
                 int month = dp.getMonth() + 1;
                 int year = dp.getYear();
-                
+
                 String date = "Date is " + day + "/" + month + "/" + year;
                 tvDisplay.setText(date);
             }
         });
-        
+
         btnReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
